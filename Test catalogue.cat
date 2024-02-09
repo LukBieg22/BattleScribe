@@ -15,7 +15,7 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -31,7 +31,7 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -52,6 +52,9 @@
       <entryLinks>
         <entryLink id="b5b5-4be9-01c2-ca3f" name="Unlock Upgrade" hidden="false" collective="false" import="true" targetId="16a5-6048-c4b5-1e5c" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fccf-4890-46ac-1ea7" name="Special Unit" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -67,7 +70,7 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -83,7 +86,7 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b5-4be9-01c2-ca3f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -104,6 +107,9 @@
       <entryLinks>
         <entryLink id="9796-eadf-9400-97d7" name="Unlock Upgrade" hidden="false" collective="false" import="true" targetId="16a5-6048-c4b5-1e5c" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
